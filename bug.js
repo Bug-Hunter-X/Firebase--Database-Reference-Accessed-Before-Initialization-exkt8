@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access a database reference before it's fully initialized. This often happens when you attempt to read or write data within the component's constructor or before the `onAuthStateChanged` listener has completed.  This can lead to unexpected behavior or crashes.
